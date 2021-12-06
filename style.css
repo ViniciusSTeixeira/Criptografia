@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(cicada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px burlywood;
+  padding: 30px;
+  border-radius: 20px;
+}
+header h1 {
+  font-weight: bolder;
+  margin-top: 25px;
+  color: burlywood;
+  font-size: 40px;
+}
+.container {
+    width: 400px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 20px 20px;
+  border: burlywood groove 10px;
+  background-color: rgba(255, 228, 196, 0.548);
+}
+label {
+  font-weight: bolder;
+  font-size: 15px;
+}
+#divInputNumber {
+  display: none;
+}
