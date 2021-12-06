@@ -9,30 +9,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  background-image: url(cicada.jpg);
+  justify-content: center;
+  background-image: url(./cicada.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 2px burlywood;
-  padding: 30px;
+
+h1 {
+  border: groove burlywood 10px;
+  padding: 10px;
   border-radius: 20px;
-}
-header h1 {
   font-weight: bolder;
-  margin-top: 25px;
-  color: burlywood;
-  font-size: 40px;
+  color: black;
+  font-size: 35px;
+  background-color: rgba(222, 184, 135, 0.555);
+  margin: 0px;
 }
 .container {
-    width: 400px;
+  width: 400px;
   padding: 25px;
+  margin: 0px;
   border-radius: 20px;
-  box-shadow: 20px 20px;
   border: burlywood groove 10px;
   background-color: rgba(255, 228, 196, 0.548);
 }
